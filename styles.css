@@ -1,2 +1,16 @@
 
-/* Your CSS Code here. */
+.holder {
+    display: flex;              
+    flex-wrap: wrap;            
+    justify-content: space-between; 
+    padding: 10px;             
+}
+
+.item {
+    flex: 1 1 auto;             /* Allow items to grow and shrink */
+    margin: 5px;                /* Optional: Add some margin between items */
+    min-width: 100px;           /* Optional: Set a minimum width for items */
+    background-color: #f0f0f0;  /* Optional: Background color for visibility */
+    text-align: center;         /* Center text within items */
+    padding: 20px;              /* Optional: Padding inside each item */
+}
